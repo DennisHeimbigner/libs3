@@ -1,2 +1,6 @@
 # libs3
-Library for accessing Amazon S3 in C code
+
+This directory contains the libs3 library.
+
+The libs3 library is free software.  See the file LICENSE for copying
+permission.

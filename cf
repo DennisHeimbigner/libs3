@@ -1,0 +1,10 @@
+#!/bin/bash
+
+PREFIX=/usr/local
+
+export CPPFLAGS="-g -O0"
+export CFLAGS="-Wall -Wno-char-subscripts $CFLAGS"
+export LDFLAGS="-lxml2 -L/usr/local/lib -lcurl"
+
+autoreconf -i
+./configure
